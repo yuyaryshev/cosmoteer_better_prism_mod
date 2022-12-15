@@ -1,6 +1,6 @@
 ID = star_code000.super_prism
-Name = "超级棱镜 Super Prism"
-Version = 1.0.3
+Name = "Better Prisms"
+Version = 1.1.3
 CompatibleGameVersions = ["0.20.19"]
 ModifiesMultiplayer = true
 Author = "star_code000"

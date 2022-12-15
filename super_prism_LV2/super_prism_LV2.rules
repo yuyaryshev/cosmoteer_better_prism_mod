@@ -9,9 +9,9 @@ Part : <./Data/ships/terran/base_part_terran.rules>/Part
 	DescriptionKey = "Parts/SuperPrismLV2Desc"
 	Resources
 	[
-		[steel, 16]
-		[coil2, 6]  //2
-		[diamond, 7]  //1
+		[steel, 100]
+		[coil2, 30]  //2
+		[diamond, 3]  //1
 	]
 	AIValueFactor = 5
 	Size = [2, 2]
@@ -102,7 +102,7 @@ Part : <./Data/ships/terran/base_part_terran.rules>/Part
 		{
 			Type = IonEnergyStorage
 			ResourceType = ion_energy
-			ReductionFactorPerBeam = 1.5   //// .75
+			ReductionFactorPerBeam = .95   //// .75
 			ProvidedValueRange = 0
 			ProvidedValuePerResource = 1/1000
 			IsDrainable = true
