@@ -1,0 +1,22 @@
+Parts
+{
+    SuperPrismLV1="Super Prism LV1"
+    SuperPrismLV1Icon=&SuperPrismLV1
+    SuperPrismLV1Desc="25% increase in damage per incoming beam,but at least two ion beams are required\n1 ion beam -- 100%\n2 ion beams -- 225%\n"\
+                      "3 ion beams -- 381%\n4 ion beams -- 577%\n...\n\nIt is not recommended to shoot too many beams into the same prism"
+
+    SuperPrismLV2="Super Prism LV2"
+    SuperPrismLV2Icon=&SuperPrismLV2
+    SuperPrismLV2Desc="50% increase in damage per incoming beam,but at least two ion beams are required\n1 ion beam -- 100%\n2 ion beams -- 250%\n"\
+                      "3 ion beams -- 475%\n4 ion beams -- 813%\n...\n\nIt is not recommended to shoot too many beams into the same prism"
+
+    SuperPrismLV3="Super Prism LV3"
+    SuperPrismLV3Icon=&SuperPrismLV3
+    SuperPrismLV3Desc="75% increase in damage per incoming beam,but at least two ion beams are required\n1 ion beam -- 100%\n2 ion beams -- 275%\n"\
+                      "3 ion beams -- 581%\n4 ion beams -- 1117%\n...\n\nIt is not recommended to shoot too many beams into the same prism"
+
+    SuperPrismLV4="Super Prism LV4"
+    SuperPrismLV4Icon=&SuperPrismLV4
+    SuperPrismLV4Desc="100% increase in damage per incoming beam,but at least two ion beams are required\n1 ion beam -- 100%\n2 ion beams -- 300%\n"\
+                      "3 ion beams -- 700%\n4 ion beams -- 1500%\n...\n\nIt is not recommended to shoot too many beams into the same prism"
+}

@@ -1,0 +1,35 @@
+ID = star_code000.super_prism
+Name = "超级棱镜 Super Prism"
+Version = 1.0.3
+CompatibleGameVersions = ["0.20.19"]
+ModifiesMultiplayer = true
+Author = "star_code000"
+Logo = "logo.png"
+Description = "至少两束离子光束射入棱镜时，新加入的光束伤害得到提升\n"\
+			  "When at least two ion beams are shot into the prism, the damage of the newly added beam is boosted\n\n"\
+			  "LV1 -- 25%\n"\
+		      "LV2 -- 50%\n"\
+			  "LV3 -- 75%\n"\
+  			  "Lv4 -- 100%\n\n"\
+			  "以 LV1 为例：DMG(LV1)=1 + 1.25 + 1.25^2 + ... + 1.25^(n-1)     n是光束的数量\n"\
+			  "For example,DMG(LV1)=1 + 1.25 + 1.25^2 + ... + 1.25^(n-1)     N is the number of beams\n"\
+			  "不建议将太多的光束射入同一个棱镜内\n"\
+			  "It is not recommended to shoot too many beams into the same prism"
+StringsFolder = "strings"
+
+Actions
+[
+	{
+		Action = AddMany
+		AddTo = "<ships/terran/terran.rules>/Terran/Parts"
+		CreateIfNotExisting = false
+		IgnoreIfNotExisting = false
+		ManyToAdd
+		[	
+			&<super_prism_LV1/super_prism_LV1.rules>/Part
+			&<super_prism_LV2/super_prism_LV2.rules>/Part
+			&<super_prism_LV3/super_prism_LV3.rules>/Part
+			&<super_prism_LV4/super_prism_LV4.rules>/Part
+		]
+	}
+]

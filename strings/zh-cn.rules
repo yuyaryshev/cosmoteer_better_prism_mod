@@ -1,0 +1,18 @@
+Parts
+{
+    SuperPrismLV1="超级棱镜LV1"
+    SuperPrismLV1Icon=&SuperPrismLV1
+    SuperPrismLV1Desc="每次加入的光束威力提升25%，但是仅有一束光时不生效：\n1束光 -- 100%\n2束光 -- 225%\n3束光 -- 381%\n4束光 -- 577%\n……\n\n不建议将太多的光束射入同一个棱镜内"
+
+    SuperPrismLV2="超级棱镜LV2"
+    SuperPrismLV2Icon=&SuperPrismLV2
+    SuperPrismLV2Desc="每次加入的光束威力提升50%，但是仅有一束光时不生效：\n1束光 -- 100%\n2束光 -- 250%\n3束光 -- 475%\n4束光 -- 813%\n……\n\n不建议将太多的光束射入同一个棱镜内"
+
+    SuperPrismLV3="超级棱镜LV3"
+    SuperPrismLV3Icon=&SuperPrismLV3
+    SuperPrismLV3Desc="每次加入的光束威力提升75%，但是仅有一束光时不生效：\n1束光 -- 100%\n2束光 -- 275%\n3束光 -- 581%\n4束光 -- 1117%\n……\n\n不建议将太多的光束射入同一个棱镜内"
+
+    SuperPrismLV4="超级棱镜LV4"
+    SuperPrismLV4Icon=&SuperPrismLV4
+    SuperPrismLV4Desc="每次加入的光束威力提升100%，但是仅有一束光时不生效：\n1束光 -- 100%\n2束光 -- 300%\n3束光 -- 700%\n4束光 -- 1500%\n……\n\n不建议将太多的光束射入同一个棱镜内"
+}
