@@ -5,16 +5,17 @@ CompatibleGameVersions = ["0.20.19"]
 ModifiesMultiplayer = true
 Author = "star_code000"
 Logo = "logo.png"
-Description = "至少两束离子光束射入棱镜时，新加入的光束伤害得到提升\n"\
-			  "When at least two ion beams are shot into the prism, the damage of the newly added beam is boosted\n\n"\
-			  "LV1 -- 25%\n"\
-		      "LV2 -- 50%\n"\
-			  "LV3 -- 75%\n"\
-  			  "Lv4 -- 100%\n\n"\
-			  "以 LV1 为例：DMG(LV1)=1 + 1.25 + 1.25^2 + ... + 1.25^(n-1)     n是光束的数量\n"\
-			  "For example,DMG(LV1)=1 + 1.25 + 1.25^2 + ... + 1.25^(n-1)     N is the number of beams\n"\
-			  "不建议将太多的光束射入同一个棱镜内\n"\
-			  "It is not recommended to shoot too many beams into the same prism"
+Description = "Adds better prisms.\n"\
+			  "Mod is based on  mod '超级棱镜 Super Prism'. But this version is much less cheaty. You still can make a 'Death Star' which would kill any thing with one shot,"\
+			  "but it'll require you to build at least 100 emmitters... Also LV1-3 is quite cheap, but LV4 cost is 1.2M so it won't be soon and you won't spam them everywhere.\n\n"\
+			  "Vanilla has -25% reduction for each next beam added to one prism\n"\
+			  "LV1 has -10% reduction for each next beam added to one prism\n"\
+			  "LV2 has -5% reduction for each next beam added to one prism\n"\
+			  "LV3 has 0 (zero) reduction\n"\
+			  "and LV4 +5% amplification for each next beam added to one prism\n"\
+			  "+5% may seem small, but calculations show that if you manage to get 128 beams into one prism the damage would be equal to 10290 beams, so the bonus would be +7939%\n\n"\
+			  "I didn't tested it with this high values. Please write comments if the limit of beams for one prism is lower - i'll try to adjust the values.\n"\
+			  "If you want cheat version of this mod - use original one. There you can just focust 10-15 beams into one prism LV1 and be uber-killer."
 StringsFolder = "strings"
 
 Actions

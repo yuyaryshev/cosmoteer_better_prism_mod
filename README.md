@@ -16,3 +16,9 @@ I didn't tested it with this high values. Please write comments if the limit of 
 StringsFolder = strings
 
 https://github.com/yuyaryshev/cosmoteer_better_prism_mod
+
+
+
+# Useful links for me
+
+How to upload mods to steam workshop: [Cosmoteer Starship Architect &amp; Commander: How to Upload a Mod to Workshop - GamePretty](https://www.gamepretty.com/cosmoteer-starship-architect-commander-how-to-upload-a-mod-to-workshop/)
